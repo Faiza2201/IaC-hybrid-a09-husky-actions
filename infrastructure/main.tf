@@ -16,7 +16,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "lab9Husky-rg"
-  location = "Canada Central"
+  location = "CanadaCentral"
 }
 
 resource "azurerm_storage_account" "storageterraformname" {
