@@ -14,7 +14,7 @@ provider "azurerm" {
   features {}
 }
 
-                resource "azurerm_resource_group" "rg" {
+                                       resource "azurerm_resource_group" "rg" {
   name     = "lab9Husky-rg"
   location = "Canada Central"
 }
